@@ -1,0 +1,122 @@
+body{
+  text-align: center;
+}
+.logo{
+  position: relative;
+  left:2rem;
+}
+.text_nav{
+  position: absolute;
+  right: 2rem;
+  font-family: 'Lato', sans-serif;
+}
+.text_nav a{
+  padding: 0 2rem;
+}
+a:link {
+  color: hsl(120, 0%, 50%);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+
+.prof{
+  padding: 1rem 2rem 1rem 3rem;
+  border-radius: 35%;
+}
+
+.main_body{
+  font-family: 'Comfortaa', cursive;
+  background-color: black;
+}
+
+/* .navbar_div, .main_body{
+
+} */
+
+.top, .third_line{
+  color: #03C988;
+}
+
+.sec_line, .fourth_line{
+  color: #DDDDDD;
+}
+
+.top{
+  padding-right: 3.7rem;
+}
+.sec_line{
+  padding-top: 1.5rem;
+}
+
+.third_line{
+  padding: 0rem 0rem 1.5rem 8rem
+}
+
+p{
+  line-height: 1.8rem;
+}
+
+.text_part{
+  padding: 8rem 2rem 3rem 1rem;
+}
+
+.mid-container{
+  background-color: #F7F5F2;
+}
+
+.intro{
+  padding: 2rem 10rem 1rem 10rem
+}
+
+.intro h2{
+  padding-top: 1rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.intro p{
+  padding: 1rem 0 1rem 0;
+  line-height: 2rem;
+  font-family: 'Comfortaa', cursive;
+}
+
+hr{
+  border-style:dotted none none none;
+  width:7%;
+  border-width:5px;
+  margin:3rem auto;
+  color: #a9a9a9;
+}
+
+.bottom-container{
+  background-color: black;
+    padding: 2rem 0 1rem 0;
+}
+
+.bottom-container a{
+  color: #03C988;
+  padding: 0 2rem;
+
+}
+
+.bottom-container p{
+  color: #DDDDDD;
+  padding-top: 1rem 
+}
